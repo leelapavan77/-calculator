@@ -1,0 +1,59 @@
+.container{
+    background-color: blanchedalmond;
+    background-image: url('hi.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:97.5vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    border: 3px solid grey;   
+}
+.sec{
+    width:300px;
+    height: 383px;
+    box-shadow: 4px 4px 1099px blueviolet;
+    border-radius: 10px;
+}
+form input{
+    background-color: black;
+    color: white;
+    font-size: large;
+    padding: 54px;
+    text-align: end;
+    border: 2px solid grey;
+    border-radius: 5px;
+    pointer-events: none;
+    
+}
+.btn_funs{
+    background-color: orangered;
+    width: 71px;
+    height: 60px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btn_nums{
+    background-color: gray;
+    width: 71px;
+    height: 60px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btn_equals{
+    background-color: green;
+    width: 71px;
+    height: 60px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btn_clr{
+    background-color: red;
+    width: 71px;
+    height: 60px;
+    border-radius: 15px;
+    cursor: pointer;
+}
